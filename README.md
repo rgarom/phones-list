@@ -8,8 +8,10 @@ This app is dockerized and uses docker-compose to connect and run the server and
 
 ## Unit testing
 
-To run all the frontend test go inside `client/phones/` and run `npm test`.
+- Install frontend depencencies running `npm install` inside `client/phones`.
+- To run all the frontend test go inside `client/phones/` and run `npm test`.
 
 ## End to End testing
 
-To run the end to end tests go inside `client/phones/` and run `npm run e2e`.
+- Install frontend depencencies running `npm install` inside `client/phones`.
+- To run the end to end tests go inside `client/phones/` and run `npm run e2e`.
