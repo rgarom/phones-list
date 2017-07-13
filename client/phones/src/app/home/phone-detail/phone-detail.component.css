@@ -1,0 +1,44 @@
+.phone-container {
+  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.phone-container:hover {
+  border: 1px solid #239fc3;
+}
+
+.title {
+  color: black;
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.description {
+  min-height: 70px;
+  font-size: 13px;
+  color: #363636;
+}
+
+.details {
+  margin: 5px 0 0 0;
+}
+
+.image {
+  float: left;
+}
+
+.color {
+  font-size: 13px;
+  color: #666;
+}
+
+.price {
+  float: left;
+  font-size: 25px;
+}

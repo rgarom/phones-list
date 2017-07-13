@@ -1,0 +1,10 @@
+<div>
+  <h1>
+    Mobile Phones list
+  </h1>
+  <app-phone-detail
+    *ngFor="let phone of phones$ | async"
+    [data]="phone">
+  </app-phone-detail>
+  <app-spinner *ngIf="!(phones$ | async)?.length"></app-spinner>
+</div>
